@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap');
 html {
   height: 100%;
 }
@@ -9,7 +10,7 @@ body {
   background: linear-gradient(#124D81, #262C7C);
   height: 100%;
   margin: 0;
-  font-family: 'Rubik';
+  font-family: helvetica;
   color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -69,8 +70,20 @@ button {
 
 #title {
   margin: 0;
+  
 }
 
+h1 {
+  font-family: 'Merriweather';
+  color: rgb(239, 182, 21);
+}
+.no_selection {
+  user-select: none; /* standard syntax */
+  -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+  -moz-user-select: none; /* mozilla browsers */
+  -khtml-user-select: none; /* webkit (konqueror) browsers */
+  -ms-user-select: none; /* IE10+ */
+}
 #status {
 
 }
