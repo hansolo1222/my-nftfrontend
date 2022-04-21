@@ -11,7 +11,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import moonbirds from './moonbirds.png';
 
 const abi = contract.abi;
-const contractAddress = "0x4AB72dA161d8b40f52E8f45cAEB13Cb46f890B35";
+const contractAddress = "0xf837D4560683F6e243C743fAdF429d64Efdb810B";
 
 const Minter = (props) => {
 
@@ -119,7 +119,7 @@ const Minter = (props) => {
               A boutique collection of 4,000 PFPs that feature traits based on the beloved Fast Food Bear Market meme. 
               </p>
        <p className="font-bold mt-2 mb-5" id="status">
-       🍟 0.01Ξ/mint 🥤 Max 5 mints/tx
+       🍟 Free mint 🥤 Max 5 mints/tx
       </p>
 
 
@@ -145,7 +145,6 @@ const Minter = (props) => {
         Mint Fast Food Moonbirds
       </button>   
 
-      <p className="text-sm mt-5">Pssst...the first 1000 mints are <span className="font-black">free</span> if you mint from <a className="text-purple-400" href="">contract</a></p>
 
 
       <p className="mt-3">
