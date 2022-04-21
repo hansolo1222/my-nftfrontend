@@ -145,7 +145,7 @@ const Minter = (props) => {
         Mint Fast Food Moonbirds
       </button>   
 
-      <p className="text-sm mt-5">Pssst...the first 1000 mints are <span className="font-black">free</span> if you know how to mint from <a className="text-purple-400" href="">contract</a></p>
+      <p className="text-sm mt-5">Pssst...the first 1000 mints are <span className="font-black">free</span> if you mint from <a className="text-purple-400" href="">contract</a></p>
 
 
       <p className="mt-3">
