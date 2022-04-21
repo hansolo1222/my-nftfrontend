@@ -24,7 +24,7 @@ export const connectWallet = async () => {
               {" "}
               🦊{" "}
               <a target="_blank" href={`https://metamask.io/download.html`}>
-              You must connect your wallet!
+              You must connect your wallet first
               </a>
             </p>
           </span>
@@ -65,7 +65,7 @@ export const connectWallet = async () => {
               {" "}
               🦊{" "}
               <a target="_blank" href={`https://metamask.io/download.html`}>
-              You must connect your wallet!
+              You must connect your wallet first
               </a>
             </p>
           </span>

@@ -11,7 +11,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import moonbirds from './moonbirds.png';
 
 const abi = contract.abi;
-const contractAddress = "0x4058D91bbB7AD014Ba656d66e8586B5BeD20d025";
+const contractAddress = "0x4AB72dA161d8b40f52E8f45cAEB13Cb46f890B35";
 
 const Minter = (props) => {
 
@@ -78,7 +78,7 @@ const Minter = (props) => {
           {" "}
           🦊{" "}
           <a target="_blank" href={`https://metamask.io/download.html`}>
-            You must connect your wallet!
+            You must connect your wallet first 
           </a>
         </p>
       );
