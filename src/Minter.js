@@ -46,7 +46,7 @@ const Minter = (props) => {
         const nftContract = new ethers.Contract(contractAddress, abi, signer);
 
         console.log("Intialize payment");
-        let nftTxn = await nftContract.mint(mintAmount, {value: ethers.utils.parseEther(String(0.01*mintAmount))});
+        let nftTxn = await nftContract.mint(mintAmount, {value: ethers.utils.parseEther(String(0))});
         console.log("Minting...please wait");
         setStatus("Minting...please wait");
         await nftTxn.wait();
